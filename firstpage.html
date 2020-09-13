@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="this is my personal website" />
+    <meta name="keyword" content="HTML tutorial for beginners" />
+    <title>My profile page</title>
+    <stlye>
+      <!-- CSS styles -->
+    </stlye>
+    <script>
+      // Javascript
+    </script>
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <!-- Heading -->
+    <h1>Heading</h1>
+    <h2>This is HTML document</h2>
+    <h3>This is HTML document</h3>
+    <h4>This is HTML document</h4>
+    <h5>This is HTML document</h5>
+    <h6>This is HTML document</h6>
+
+    <hr />
+
+    <!-- paragraph -->
+    <p>
+      <i>Lorem ipsum dolor sit</i>, amet <em>consectetur</em> adipisicing elit.
+      Impedit voluptas amet ea illum aliquid! Nesciunt, reiciendis libero
+      <small>tempora atque</small> esse deleniti et maiores in magnam,
+      <mark>exercitationem</mark>, dignissimos tenetur quis laboriosam!
+    </p>
+    <p>
+      <del>Lorem ipsum dolor sit</del>,<br />
+      amet <ins>consectetur</ins> adipisicing elit. Autem similique omnis dicta,
+      neque illo ab optio nulla voluptatibus cum aliquid odit enim suscipit
+      tenetur <sup>perferendis</sup> amet obcaecati. <sub>Blanditiis</sub>, a
+      corporis?
+    </p>
+    <!-- Pre formatting tag -->
+    <pre>
+Twinkle, twinkle, little star
+  How I wonder what you are
+  Up above the world so high,
+  Like a diamond in the sky.</pre
+    >
+    <hr />
+    <!-- HTML formatting elements -->
+    <p>
+      <b>Lorem ipsum dolor</b> sit amet consectetur
+      <strong>adipisicing elit.</strong> Autem similique omnis dicta, neque illo
+      ab optio nulla voluptatibus cum aliquid odit enim suscipit tenetur
+      perferendis amet obcaecati. Blanditiis, a corporis?
+    </p>
+
+    <!-- HTML Quotations -->
+    <p>THIs conent belongs to some other sites:</p>
+    <blockquote cite="https://en.wikipedia.org/wiki/HTML">
+      In 1980, physicist Tim Berners-Lee, a contractor at CERN, proposed and
+      prototyped ENQUIRE, a system for CERN researchers to use and share
+      documents. In 1989, Berners-Lee wrote a memo proposing
+    </blockquote>
+    <hr />
+    <!-- List -->
+    <!-- ordered List -->
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+    </ol>
+
+    <!-- unordered List -->
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+    </ul>
+
+    <!-- description List -->
+    <dl>
+      <dt>HTML</dt>
+      <dd>Used for web pages</dd>
+      <dt>CSS</dt>
+      <dd>Used for styling web pages</dd>
+      <dt>Javascript</dt>
+      <dd>Used for adding interactivity web pages</dd>
+    </dl>
+
+    <!-- Links -->
+    <a href="https://en.wikipedia.org/wiki/HTML">Wikipedia</a>
+    <a target="_blank" href="https://en.wikipedia.org/wiki/HTML"
+      >Wikipedia in new tab</a
+    >
+    <a href="https://www.youtube.com/c/DipeshMalvia/">MY YOUTUBE HOME PAGE</a>
+    <a href="mailto:cs.dipeshmalvia@gmail.com">Send email to dipesh</a>
+
+    <hr />
+
+    <!-- Images -->
+    <img src="ugly_smiley.png" alt="Smile Face" width="200" height="200" />
+    <img src="images/js.png" width="150" height="150" />
+    <hr />
+
+    <!-- Block level and inline elements 
+      h1-h6, div, p
+      span, img, a 
+    -->
+
+    <p>
+      <div>Lorem ipsum dolor</div>, <span>DIpesh Malvia</span>sit amet consectetur
+      adipisicing elit. Dignissimos voluptatem vero a minus autem ipsam
+      consequatur recusandae nulla, incidunt inventore voluptate ullam quos?
+      Sequi, suscipit ullam tempora cupiditate velit ratione!
+    </p>
+
+    <style>
+      table, th, td {
+        border: 1px solid black;
+        /* border-collapse: collapse; */
+      }
+      </style>
+    <!-- Tables -->
+    <table>
+      <tr>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Dipesh</td>
+        <td> Malvia</td>
+        <td>28</td>
+      <tr>
+        <td>Sheldon</td>
+        <td>Cooper</td>
+        <td>29</td>
+      </tr>
+    </table>
+
+    <hr>
+    
+    <table >
+      <tr>
+        <th>Country</th>
+        <th colspan="2">Cities</th>
+      </tr>
+      <tr>
+        <td>India</td>
+        <td>Mumbai</td>
+        <td>Delhi</td>
+      </tr>
+      <tr>
+        <td>Germany</td>
+        <td>Berlin</td>
+        <td>Frankfurt</td>
+      </tr>
+    </table>
+<hr>
+    <table>
+      <tr>
+        <th>Country</th>
+        <td>India</td>
+      <td>Germany</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Cities</th>
+        <td>Mumbai</td>
+      <td>Berlin</td>
+      </tr>
+      <tr>
+        <td>Delhi</td>
+      <td>Frankfurt</td>
+      </tr>
+    </table>
+    
+    <hr>
+    <h2>Registration Form</h2>
+    <!-- Forms
+      type - text, radio, checkbox, email, date
+    -->
+    <form action="">
+      <label for="firstname">First Name</label> <br>
+      <input type="text" name="firstname" placeholder="Enter first name"/><br>
+      <label for="lastname">Last Name</label> <br>
+      <input type="text" name="lastname" placeholder="Enter last name"/><br>
+      <label>Gender : </label><br>
+      <input type="radio" value="male" name="gender" />
+      <label>Male </label>
+      <input type="radio" value="female" name="gender" />
+      <label>Female </label><br>
+      <label for="hobbies">Hobbiess</label><br>
+<input type="checkbox" name="hobbies1" value="Cycling">
+  <label for="hobbies1">cycling</label><br>
+  <input type="checkbox" name="hobbies2" value="Cooking">
+  <label for="hobbies2">cooking</label><br>
+  <input type="checkbox" name="hobbies3" value="Reading">
+  <label for="hobbies3">Reading novels</label><br>
+	
+<label for="Age">Age Group</label>
+<select>
+<option value="">select option</option>
+	<option value="School">10-20</option>
+	<option value="College">21-25</option>
+	<option value="Working">26-40</option>
+</select><br>
+<button type="submit">Submit</button>
+    </form>
+
+    <hr>
+
+    <!-- Iframe -->
+
+    <iframe src="https://www.wikipedia.org/" width="250" height="250"></iframe>
+    <iframe src="https://www.youtube.com/embed/QTCCJTzLWWA" width="300" height="300"></iframe>
+  
+    <hr>
+    <!-- Audio & Video -->
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+      
+      <hr>
+      <video width="320" height="240" controls>
+        <source src="End screen.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+
+      <hr/>
+
+      <!-- HTML Semantics header, footer, nav, section, aside-->
+      
+  </body>
+</html>
